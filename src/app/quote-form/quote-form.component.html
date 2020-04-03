@@ -4,10 +4,10 @@
     <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
         <div class="form-group">
   
-            <label for="name" style="color: white;">HEADER</label>
+            <label for="name" style="color: white;">YOUR NAME</label>
             <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name='ngModel' required style="background: transparent; color: white;">
             <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-              <p>Header is required</p>
+              <p>YOUR NAME is required</p>
             </div>
         </div>
         <div class="form-group">

@@ -8,9 +8,12 @@ import {Quote} from '../quote';
 })
 export class QuoteComponent implements OnInit {
 
+  
+  
   quotes: Quote[] = [
-    new Quote(1, 'inspirational quote', 'wrinkles mean you laughed,grey hair means you cared and scars means you lived','by Goodwill',),
-    new Quote(2,'pointed quoes','some people are not just missing a screw,the whole toolbox is lost','by ruth',)
+    new Quote
+    (1, 'Patrick ole', 'wrinkles mean you laughed,grey hair means you cared and scars means you lived','by Goodwill',new Date(2019,6,4)),
+    new Quote(2,'Ruth Mugo','some people are not just missing a screw,the whole toolbox is lost','by ruth',new Date(2016))
   
   
   
@@ -21,6 +24,7 @@ export class QuoteComponent implements OnInit {
     // goal.completeDate = new Date(goal.completeDate)
     this.quotes.push(quote)
   }
+  
 
   toggleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;

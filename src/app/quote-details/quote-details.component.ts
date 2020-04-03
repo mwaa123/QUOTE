@@ -17,11 +17,11 @@ export class QuoteDetailsComponent implements OnInit {
   }
   numberOfLikes:number =0
   upButton(){
-    this.numberOfLikes ++
+    this.numberOfLikes +=1
   }
   numberOfDislikes:number =0
   downButton(){
-    this.numberOfDislikes ++
+    this.numberOfDislikes +=1
   }
 
   constructor() { }
