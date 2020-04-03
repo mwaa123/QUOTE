@@ -64,5 +64,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
  [ruthwanjiramugo@gmail.com]
 
 ## License
-* *MIT License:*
+[LICENCE](/home/ruth/Quote/LICENCE.md)
+
 * Copyright (c) 2019 **Ruth Mugo**
