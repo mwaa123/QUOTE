@@ -20,7 +20,7 @@
         </div>
         <div class="form-group">
 
-          <label for="author">AUTHOR</label>
+          <label for="author" style="color: white;">AUTHOR</label>
           <textarea class="form-control" id="author" rows="4" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required style="background: transparent;color: white;" ></textarea>
           <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
             <p>Author is required</p>
