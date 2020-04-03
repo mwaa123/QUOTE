@@ -14,19 +14,19 @@ export class QuoteDetailsComponent implements OnInit {
   // }
   quoteDelete(unsatisfied:boolean){
     this.isUnsatisfied.emit(unsatisfied);
-  // }
-  // numberOfLikes:number =0
-  // upButton(){
-  //   this.numberOfLikes ++
-  // }
-  // numberOfDislikes:number =0
-  // downButton(){
-  //   this.numberOfDislikes ++
-  // }
+  }
+  numberOfLikes:number =0
+  upButton(){
+    this.numberOfLikes ++
+  }
+  numberOfDislikes:number =0
+  downButton(){
+    this.numberOfDislikes ++
+  }
 
-  // constructor() { }
+  constructor() { }
 
-  // ngOnInit(): void {
+  ngOnInit(): void {
   }
 
 }
