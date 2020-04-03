@@ -12,11 +12,11 @@ export class DatePipe implements PipeTransform {
     let dateDifferenceInSeconds=dateDifference*0.001;
     let dateCount=dateDifferenceInSeconds/secondsInDay;
 
-    if(dateCount>0.5){
-      return Math.ceil(dateCount)+ " "+"days ago";
-    }
-    else{
-    return null;
-  }
-  }
+  //   if(dateCount>0.5){
+  //     return Math.ceil(dateCount)+ " "+"days ago";
+  //   }
+  //   else{
+  //   return null;
+  // }
+  // }
 }
